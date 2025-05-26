@@ -6,6 +6,7 @@
     <meta name="keywords" content="curriculum, educación, experiencia, habilidades">
     <meta name="description" content="Página de curriculum con información personal y profesional de Paúl Perdomo.">
     <meta name="author" content="Paúl Perdomo">
+    <link rel="stylesheet" href="./stylesheets/style.css">   
     <title>Curriculum de Paúl Perdomo</title>
 </head>
 <body>
@@ -18,29 +19,29 @@
                 <li><a href="#experience">Experiencia</a></li>
                 <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#contact">Contacto</a></li>
-                li><a href="#references">Referencias</a></li>
+                <li><a href="#references">Referencias</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="about">
-            <h2>Sobre mí</h2>
+            <h2 class="subtitle">Sobre mí</h2>
             <p>Breve descripción personal y profesional.</p>
         </section>
         <section id="education">
-            <h2>Educación</h2>
+            <h2 class="subtitle">Educación</h2>
             <p>Detalles sobre tu formación académica.</p>
         </section>
         <section id="experience">
-            <h2>Experiencia</h2>
+            <h2 class="subtitle">Experiencia</h2>
             <p>Información sobre tu experiencia laboral.</p>
         </section>
         <section id="skills">
-            <h2>Habilidades</h2>
+            <h2 class="subtitle">Habilidades</h2>
             <p>Lista de habilidades relevantes.</p>
         </section>
         <section id="contact">
-            <h2>Contacto</h2>
+            <h2 class="subtitle">Contacto</h2>
             <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.3688818847482!2d-79.96768113051415!3d-2.1478331322054314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13c7034d9d3f%3A0x2f1961218e8c0b73!2sEscuela%20Superior%20Politécnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1716134400000!5m2!1ses!2sec" 
                 width="100%" 
@@ -50,7 +51,7 @@
                 loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
-            <img src= "https://placehold.co/600x400?font=roboto" alt="Imagen de ejemplo" width="300" height="200">
+            <img id="photo" src="https://placehold.co/600x400?font=roboto" alt="Imagen de ejemplo" width="300" height="200">
             <div style="margin-top: 20px;">
                 <iframe width="560" height="315" 
                         src="https://www.youtube.com/watch?v=B7J3imdVr4I" 
@@ -87,9 +88,9 @@
                 <!-- Vector de valores (checkboxes) -->
                 <fieldset>
                     <legend>Tecnologías que dominas:</legend>
-                    <label><input type="checkbox" name="tech[]" value="html" required> HTML</label>
-                    <label><input type="checkbox" name="tech[]" value="css" required> CSS</label>
-                    <label><input type="checkbox" name="tech[]" value="js" required> JavaScript</label>
+                    <label><input type="checkbox" name="tech[]" value="html"> HTML</label>
+                    <label><input type="checkbox" name="tech[]" value="css"> CSS</label>
+                    <label><input type="checkbox" name="tech[]" value="js"> JavaScript</label>
                 </fieldset>
 
                 <!-- Área de texto -->
@@ -103,7 +104,7 @@
 
         </section>
         <section id="info-adicional">
-            <h2>Información adicional</h2>
+            <h2 class="subtitle">Información adicional</h2>
 
             <p>Para conocer más sobre mis proyectos y trayectoria, visita mi perfil profesional en 
                 <a href="https://www.linkedin.com/in/paulperdomo" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
@@ -152,7 +153,7 @@
             </table>
         </section>
         <section id="references">
-            <h2>Referencias</h2>
+            <h2 class="subtitle">Referencias</h2>
 
             <article>
                 <blockquote>“Paúl fue clave en el éxito del rediseño de nuestro sistema interno. Siempre encontró soluciones eficientes.”</blockquote>
